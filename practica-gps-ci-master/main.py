@@ -17,7 +17,7 @@ def main():
         print(transform.to_upper_case(string))
     elif opcio == "2":
         print(transform.to_lower_case(string))
-    elif opcio == "3":
+    elif opcio == "4":
         print(transform.to_capitalize(string))
     else:
         print("opció no reconegudda")
