@@ -10,6 +10,7 @@ def main():
     print("[1] Text amb tot majuscules")
     print("[2] Text amb tot minúscuies")
     print("[3] Text capitalitzat ")
+    print("aixo es una prova")
 
     opcio = input("opció escollida: ")
 
