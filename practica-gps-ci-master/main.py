@@ -13,7 +13,7 @@ def main():
 
     opcio = input("opció escollida: ")
 
-    if opcio == "1":
+    if opcio == "10":
         print(transform.to_upper_case(string))
     elif opcio == "2":
         print(transform.to_lower_case(string))
