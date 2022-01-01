@@ -26,7 +26,7 @@ jobs:
           pip install coverage
       - name: Analysing the code with pylint
         run: |
-         pylint `ls -R|grep .py$|xargs`
+         pylint test.py
       - name: Test with pytest
         run: |
            coverage run -m test
